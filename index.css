@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(https://upluniversity.ac.in/UploadedFiles/Slider_132706390428982148.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  height: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.box {
+  display: flex;
+  color: white;
+  transform: translate(-50%, -50%);
+  background: hsla(232, 60%, 17%, 0.651);
+  width: 20rem;
+  margin-top: 200px ;
+  margin-left: 300px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  border: 2px solid #2a3cad;
+  object-position: center;
+}
+
+
+
+
+        
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  outline: none;
+}
+
+form a {
+  text-decoration: none;
+}
+
+#password:hover{
+    box-shadow:  0 20px 50px rgb(23, 32, 90);
+    box-sizing: border-box;
+    border: 2px solid #2a3cad;
+}
+#username:hover{
+    box-shadow:  0 20px 50px rgb(23, 32, 90);
+    box-sizing: border-box;
+    border: 2px solid #2a3cad;
+}
+
+#submit {
+  margin-top: 30px;
+  align-self: flex-start;
+  padding: 5px 15px;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#help-text {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.disclaimer{
+  width: 90%;
+  margin: auto;
+  color: black;
+  font-size: 12px;
+  border-top: 1px solid gray;
+  padding-top: 1.5rem;
+}
+
+.image{
+  image-rendering: -moz-crisp-edges;
+  height: 150px;
+}
+
+@media only screen and (max-width:800px){
+  body {
+  background: url(https://upluniversity.ac.in/UploadedFiles/Slider_132706390428982148.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  height: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  .container_1{
+    align-items: center;
+  }
+
+  .container_2{
+   
+    align-content: center;
+  }
+  .disclaimer{
+    width: 90%;
+    margin: auto;
+    color: gray;
+    font-size: 12px;
+    border-top: 1px solid gray;
+    padding-top: 1.5rem;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: relative; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 200px; /* Full width */
+  height: 300px; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.mi{
+  object-position: center;
+  width: 100%;
+  height: 20%;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
