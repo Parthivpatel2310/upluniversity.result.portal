@@ -104,7 +104,7 @@ form a {
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
-  height: cover;
+  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
