@@ -103,8 +103,8 @@ form a {
   background: url(https://upluniversity.ac.in/UploadedFiles/Slider_132706390428982148.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   flex-direction: column;
-  height: cover;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
